@@ -5,7 +5,7 @@ def userFlt(prompt):
     
 def userStr(prompt):
     print prompt,
-    str = raw_input() + " "
+    str = raw_input()
     return str
     
 def userInt(prompt):
