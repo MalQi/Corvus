@@ -24,6 +24,7 @@ def countBirds(filename):
             d[name] = d[name] + count
         else:
             d[name] = count
+    print d
     return d
 
 
